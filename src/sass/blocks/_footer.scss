@@ -1,0 +1,36 @@
+.footer {
+    height: 630px;
+    position: relative;
+    &__info {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 460px;
+        height: 270px;
+        background: $main-color;
+        padding: 50px 53px 0px 53px;
+        display: block;
+        text-align: center;
+    }
+    &__social {
+        margin-top: 36px;
+        &-item {
+            margin: 13px;
+        }
+    }
+    &__addr {
+        margin-bottom: 36px;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__phone {
+        margin-bottom: 36px;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
